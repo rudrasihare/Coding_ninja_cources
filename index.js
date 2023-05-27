@@ -1,0 +1,21 @@
+burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar')
+image = document.querySelector('.logo')
+cources = document.querySelector('.navbar-cources')
+scholarship = document.querySelector('.navbar-scholarship')
+community = document.querySelector('.navbar-community')
+practice = document.querySelector('.navbar-practice')
+careercamp = document.querySelector('.navbar-careercamp')
+buttons = document.querySelector('.navbar-buttons')
+
+
+burger.addEventListener('click', ()=>{
+    image.classList.toggle('vclass')
+    cources.classList.toggle('vclass')
+    scholarship.classList.toggle('vclass')
+    community.classList.toggle('vclass')
+    practice.classList.toggle('vclass')
+    careercamp.classList.toggle('vclass')
+    buttons.classList.toggle('vclass') 
+    navbar.classList.toggle('h_nav')
+})
