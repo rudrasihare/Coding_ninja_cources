@@ -357,6 +357,7 @@ footer div p {
 }
 
 @media only screen and (max-width: 1200px) {
+    
     .navbar {
         flex-direction: column;
         transition: all 0.7s ease-out;
@@ -380,4 +381,41 @@ footer div p {
     .section-projects-card{
         flex-direction: column;
     }
+    .header{
+        width: 160%;
+    }
+    figure img{
+        width: 160%;
+    }
+    .section-projects{
+        width: 160%;
+    }
+    .section-projects-hexagon2{
+        top: 545px;
+    }
+    .section-projects-figures{
+        left: 26px;
+        top: 30px;
+    }
+    .section-projects-card img{
+        width: 30px;
+    }
+    .section-info-box{
+        width: 160%;
+    }
+    .section-info-box li img{
+        width: 0;
+        height: 0;
+    }
+    .section-info-box ul li img{
+        width: 0;
+        height: 0;
+    }
+    .section-info-box ul:first-child>li:last-child {
+        display: none;
+    }
+    footer{
+        width: 160%;
+    }
 }
+
