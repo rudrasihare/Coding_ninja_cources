@@ -402,6 +402,7 @@ footer div p {
     }
     .section-info-box{
         width: 160%;
+        column-gap: 32px;
     }
     .section-info-box li img{
         width: 0;
